@@ -1,5 +1,5 @@
 {
-  "name": "react-native-digital-ink",
+  "name": "react-native-digital-ink-recognition",
   "version": "1.1.2",
   "description": "React Native module for using Digital Ink Recognition of Google ML Kit",
   "main": "lib/commonjs/index",
@@ -34,13 +34,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/Looxor/react-native-digital-ink",
-  "author": "Thibault <thibault.lauriano@outlook.com> (https://github.com/Looxor)",
+  "repository": "https://github.com/konstantinlois/react-native-digital-ink-recognition",
+  "author": "Konstantin Lois <konsta.lois@gmail.com> (https://github.com/konstantinlois)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Looxor/react-native-digital-ink/issues"
+    "url": "https://github.com/konstantinlois/react-native-digital-ink-recognition/issues"
   },
-  "homepage": "https://github.com/Looxor/react-native-digital-ink#readme",
+  "homepage": "https://github.com/konstantinlois/react-native-digital-ink-recognition#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@react-native-community/bob": "^0.16.2",
@@ -119,7 +119,10 @@
       ]
     }
   },
-  "eslintIgnore": ["node_modules/", "lib/"],
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ],
   "prettier": {
     "quoteProps": "consistent",
     "singleQuote": true,
@@ -130,6 +133,10 @@
   "@react-native-community/bob": {
     "source": "src",
     "output": "lib",
-    "targets": ["commonjs", "module", "typescript"]
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
   }
 }
