@@ -1,5 +1,5 @@
 {
-  "name": "react-native-digital-ink-recognition",
+  "name": "react-native-digital-ink-recognizer",
   "version": "1.1.2",
   "description": "React Native module for using Digital Ink Recognition of Google ML Kit",
   "main": "lib/commonjs/index",
@@ -34,13 +34,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/konstantinlois/react-native-digital-ink-recognition",
+  "repository": "https://github.com/konstantinlois/react-native-digital-ink-recognizer",
   "author": "Konstantin Lois <konsta.lois@gmail.com> (https://github.com/konstantinlois)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/konstantinlois/react-native-digital-ink-recognition/issues"
+    "url": "https://github.com/konstantinlois/react-native-digital-ink-recognizer/issues"
   },
-  "homepage": "https://github.com/konstantinlois/react-native-digital-ink-recognition#readme",
+  "homepage": "https://github.com/konstantinlois/react-native-digital-ink-recognizer#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@react-native-community/bob": "^0.16.2",
