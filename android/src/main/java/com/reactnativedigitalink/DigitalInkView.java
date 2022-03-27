@@ -25,7 +25,8 @@ import java.util.List;
 
 public class DigitalInkView extends RelativeLayout implements ContentChangedListener {
   private static final String TAG = "MLKD.DrawingView";
-  private static final int STROKE_WIDTH_DP = 3;
+  //private static final int STROKE_WIDTH_DP = 3;
+  private static final int STROKE_WIDTH_DP = 5;
   private static final int MIN_BB_WIDTH = 10;
   private static final int MIN_BB_HEIGHT = 10;
   private static final int MAX_BB_WIDTH = 256;
@@ -49,7 +50,8 @@ public class DigitalInkView extends RelativeLayout implements ContentChangedList
     setId(R.id.digital_ink_view);
 //    setId(ViewCompat.generateViewId());
     currentStrokePaint = new Paint();
-    currentStrokePaint.setColor(0xFFFF00FF); // pink.
+    //currentStrokePaint.setColor(0xFFFF00FF); // pink.
+    currentStrokePaint.setColor(0xFF606060);
     currentStrokePaint.setAntiAlias(true);
     // Set stroke width based on display density.
     currentStrokePaint.setStrokeWidth(
